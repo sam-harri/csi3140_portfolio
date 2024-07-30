@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sam Harrison - Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap"
+        media="print" onload='this.media="all"'>
+    <link rel=icon type=image/png
+        href="https://sam-harri.github.io/AcademicCV/media/icon_hu33d8a69ff6443ae0170fd9d1deffcfaf_86322_32x32_fill_lanczos_center_3.png">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="vh-100">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand font-weight-bold" href="#">Sam Harrison</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link small-nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link small-nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link small-nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link small-nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link small-nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="home" class="container-fluid first-section pt-5">
+            <div class="row justify-content-center align-items-start  pt-5">
+                <div class="col-md-1"></div>
+                <div class="col-md-3 text-center profile-section">
+                    <img src="https://samharrison-portfolio.s3.us-east-2.amazonaws.com/headshot.jpg"
+                        alt="Sam Harrison" class="profile-pic">
+                    <h1 class="mt-2">Sam Harrison</h1>
+                    <p class="text-muted">Computing Technology & Chemical Engineering Student<br>University of Ottawa
+                    </p>
+                    <div>
+                        <a href="https://github.com/sam-harri" class="icon"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/samuel-harrison-1a2b3c/" class="icon"><i
+                                class="fab fa-linkedin"></i></a>
+                        <!-- <a href="https://sam-harri.github.io/AcademicCV/uploads/CV-SamHarrison.pdf" class="icon"><i
+                                class="fas fa-file-alt"></i></a> -->
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <h2 class="bio-header">Biography</h2>
+                    <p class="bio-text">5th year double major Computing Technology and Chemical Engineering student at
+                        the University of Ottawa with an interest in applied machine learning, performance critical
+                        application development, and Rust.
+                        I've aquired industry exerience in developing data intensive applications, building and taking
+                        machine learning models to production,
+                        and ML/DL modelling of physical processes.
+                    </p>
+                    <!-- <a href="" class="cv-link"><i
+                            class="fas fa-download"></i> View my Curriculum
+                        Vitae</a> -->
+
+                    <div class="row mt-4">
+                        <div class="col-6">
+                            <h3 class="section-header">Education</h3>
+                            <ul class="education">
+                                <li>
+                                    <i class="fas fa-graduation-cap"></i> BSc. in Computing Technology, 2020 - 2025
+                                    <p class="institution">University of Ottawa</p>
+                                    <p class="gpa">GPA : 10.0 / 10.0 </p>
+                                </li>
+                                <li>
+                                    <i class="fas fa-graduation-cap"></i> BASc. in Chemical Engineering, 2020 - 2025
+                                    <p class="institution">University of Ottawa</p>
+                                    <p class="gpa">GPA : 9.1 / 10.0 </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <h3 class="section-header">Accomplishments</h3>
+                            <ul class="accomplishments">
+                                <li><i class="fas fa-trophy"></i> Dean's Honour Roll Every Year</li>
+                                <li><i class="fas fa-trophy"></i> Dean's Merit Scholarship Every Semester</li>
+                                <li><i class="fas fa-trophy"></i> Winner of Engineering Captone Competition</li>
+                                <li><i class="fas fa-trophy"></i> French Studies Bursary</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="experience" class="container-fluid experience-section">
+        <div class="row">
+            <div class="col-md-3">
+                <h2 class="ml-5 mt-5">Experience</h2>
+            </div>
+            <div class="col-md-8">
+                <div class="timeline timeline-first">
+                    <!-- <div class="timeline-item first-experience">
+                        <div class="timeline-icon"></div>
+                        <div class="timeline-content">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="experience-header">
+                                        <img src="https://samharrison-portfolio.s3.us-east-2.amazonaws.com/skyworkslogo.png"
+                                            alt="Skyworks Solutions Inc. Logo" class="company-logo mr-3">
+                                        <div class="experience-details">
+                                            <h5 class="card-title">Junior Machine Learning Engineer, Semiconductor
+                                                Modelling Group</h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Skyworks Solutions Inc.</h6>
+                                            <p class="card-text">
+                                                <small class="text-muted">May 2024 – Present · Ottawa, ON</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-text pt-3">
+                                        <ul>
+                                            <li class="pt-2">Modelling 3rd order harmonics of non-linear devices using
+                                                deep learning
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item first-experience">
+                        <div class="timeline-icon"></div>
+                        <div class="timeline-content">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="experience-header">
+                                        <img src="https://samharrison-portfolio.s3.us-east-2.amazonaws.com/gbatterieslogo.png"
+                                            alt="GBatteries Logo" class="company-logo mr-3">
+                                        <div class="experience-details">
+                                            <h5 class="card-title">Algorithm Developer Intern, R&D Division</h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">GBatteries</h6>
+                                            <p class="card-text">
+                                                <small class="text-muted">August 2023 – January 2024 · Ottawa,
+                                                    ON</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-text pt-3">
+                                        <ul>
+                                            <li class="pt-2">Developped and deployed various machine learning and deep
+                                                learning models from the
+                                                literature to tackle state estimation of Li-Ion batteries during drive
+                                                cycles
+                                            </li>
+                                            <li class="ml-5 pt-1">Deployed models with FastAPI and maintained a rolling
+                                                window of time-series data in Redis</li>
+                                            <li class="ml-5 pt-1">Created CI/CD pipeline using GitlabCI to automate
+                                                PyTest testing, building
+                                                distribution and Docker image, and deployment</li>
+                                            <li class="pt-2">Created Electrochemical Impedance Spectroscopy dashboard,
+                                                and accompanying REST API
+                                                to standardize data acquisition and share battery cycling results across
+                                                teams
+                                            </li>
+                                            <li class="ml-5 pt-1">Used React, Typescript, and Bootstrap to build
+                                                dashboard where users could access,
+                                                plot, compare, average, share, and fit data across many EIS sweeps to
+                                                support
+                                                research efforts </li>
+                                            <li class="ml-5 pt-1">Integrated API calls into existing EIS platforms for
+                                                transmission of sweep
+                                                conditions and impedance results into MongoDB</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline timeline-last">
+                    <div class="timeline-item last-experience">
+                        <div class="timeline-icon"></div>
+                        <div class="timeline-content">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="experience-header">
+                                        <img src="https://samharrison-portfolio.s3.us-east-2.amazonaws.com/pspclogo.png"
+                                            alt="PSPC Logo" class="company-logo mr-3">
+                                        <div class="experience-details">
+                                            <h5 class="card-title">Junior Data Scientist, National Project Oversight
+                                                Branch</h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Public Services and Procurement
+                                                Canada</h6>
+                                            <p class="card-text">
+                                                <small class="text-muted">April 2022 – September 2022 · Quebec,
+                                                    QC</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card-text pt-3">
+                                        <ul>
+                                            <li class="pt-2">Developed an automated review system for the National
+                                                Project Management System to
+                                                provide early warnings for projects at risk of exceeding time, budget,
+                                                or scope constraints
+                                            </li>
+                                            <li class="pt-2">Reduced quarterly review exercise timeline from over 60
+                                                hours to approximately 5 minutes
+                                            </li>
+                                            <li class="pt-2">Created a comprehensive dashboard to visualize project
+                                                data, highlighting trends across
+                                                projects and regions
+                                            </li>
+                                            <li class="pt-2">Worked extensively with large, complex datasets in the
+                                                project management and financial
+                                                industry
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills" class="skill-section mt-5">
+        <div class="home-section-bg"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="section-heading col-12 mb-3 text-center">
+                    <h1 class="mb-0">Skills</h1>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <div class="row">
+                        <div class="col">
+                            <div class="skill-group-title">Languages</div>
+                            <div class="skills-content">
+                                <span class="skills-icon">
+                                    <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+                                </span>
+                                <span class="skills-name">Python</span>
+                            </div>
+                            <div class="skills-content">
+                                <span class="skills-icon">
+                                    <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original.svg" />
+                                </span>
+                                <span class="skills-name">Go</span>
+                            </div>
+                            <div class="skills-content">
+                                <span class="skills-icon">
+                                    <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" />
+                                </span>
+                                <span class="skills-name">Rust</span>
+                            </div>
+                            <div class="skills-content">
+                                <span class="skills-icon">
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+                                </span>
+                                <span class="skills-name">Typescript</span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="skill-group-title">Machine Learning</div>
+                            <div class="skills-content">
+                                <span class="skills-icon">
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" />
+                                </span>
+                                <span class="skills-name">PyTorch</span>
+                            </div>
+                            <div class="skills-content">
+                                <span class="skills-icon">
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" />
+                                </span>
+                                <span class="skills-name">SciKit Learn</span>
+                            </div>
+                            <div class="skills-content">
+                                <span class="skills-icon">
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" />
+                                </span>
+                                <span class="skills-name">Numpy</span>
+                            </div>
+                            <div class="skills-content">
+                                <span class="skills-icon">
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" />
+                                </span>
+                                <span class="skills-name">Pandas</span>
+                            </div>
+                            <div class="skills-content">
+                                <span class="skills-icon">
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" />
+                                </span>
+                                <span class="skills-name">OpenCV</span>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="skill-group-title">Databases</div>
+                            <div class="skills-content">
+                                <span class="skills-icon">
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
+                                </span>
+                                <span class="skills-name">SQL</span>
+                            </div>
+                            <div class="skills-content">
+                                <span class="skills-icon">
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
+                                </span>
+                                <span class="skills-name">Postgres</span>
+                            </div>
+                            <div class="skills-content">
+                                <span class="skills-icon">
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
+                                </span>
+                                <span class="skills-name">MongoDB</span>
+                            </div>
+                            <div class="skills-content">
+                                <span class="skills-icon">
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" />
+                                </span>
+                                <span class="skills-name">Redis</span>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="skill-group-title">DevOps</div>
+                            <div class="skills-content">
+                                <span class="skills-icon">
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
+                                </span>
+                                <span class="skills-name">Docker</span>
+                            </div>
+                            <div class="skills-content">
+                                <span class="skills-icon">
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+                                </span>
+                                <span class="skills-name">Git</span>
+                            </div>
+                            <div class="skills-content">
+                                <span class="skills-icon">
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" />
+                                </span>
+                                <span class="skills-name">CI</span>
+                            </div>
+                            <div class="skills-content">
+                                <span class="skills-icon">
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
+                                </span>
+                                <span class="skills-name">Linux</span>
+                            </div>
+                            <div class="skills-content">
+                                <span class="skills-icon">
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />
+                                </span>
+                                <span class="skills-name">AWS</span>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="skill-group-title">Web Development</div>
+                            <div class="skills-content">
+                                <span class="skills-icon">
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+                                </span>
+                                <span class="skills-name">React</span>
+                            </div>
+                            <div class="skills-content">
+                                <span class="skills-icon">
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />
+                                </span>
+                                <span class="skills-name">Next.js</span>
+                            </div>
+                            <div class="skills-content">
+                                <span class="skills-icon">
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+                                </span>
+                                <span class="skills-name">Tailwind</span>
+                            </div>
+                            <div class="skills-content">
+                                <span class="skills-icon">
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" />
+                                </span>
+                                <span class="skills-name">Bootstrap</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects" class="project-section">
+        <div class="home-section-bg"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="section-heading col-12 mb-3 text-center">
+                    <h1 class="mb-0">Projects</h1>
+                </div>
+                <div class="col-12">
+                    <div class="isotope projects-container row js-layout-row project-showcase">
+
+                        <div class="col-12 isotope-item js-id-machine-learning card">
+                            <div class="col-lg-12 view-showcase card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-md-6 order-first">
+                                        <div class="section-subheading article-title mb-0 mt-0">
+                                            <a>CSI3140 Emergency Waitlist</a>
+                                        </div>
+                                        <div class="article-style mb-1">
+                                            Hospital Emergency Waitlist and Triage Application
+                                        </div>
+                                        <div class="row">
+                                            <div class="btn-links ml-3">
+                                                <a class="btn btn-outline-primary btn-page-header"
+                                                    href="https://github.com/sam-harri/emergency_waitlist" target="_blank"
+                                                    rel="noopener">
+                                                    <i class="fab fa-github mr-1"></i>Github
+                                                </a>
+                                            </div>
+                                            <div class="btn-links">
+                                                <a class="btn btn-outline-primary btn-page-header"
+                                                    href="https://emergency-waitlist.vercel.app/" target="_blank"
+                                                    rel="noopener">
+                                                    <i class="fa fa-globe mr-1"></i>Website
+                                                </a>
+                                            </div>
+                                            <!-- <div class="btn-links">
+                                                <a class="btn btn-outline-primary btn-page-header" href="www.google.com"
+                                                    target="_blank" rel="noopener">
+                                                    <i class="fa fa-camera mr-1"></i></i>Demo
+                                                </a>
+                                            </div> -->
+                                        </div>
+                                        <div class="card-text">
+                                            <ul>
+                                                <li class="pt-1">Frontend built with React, Next.js, and Tailwind
+                                                </li>
+                                                <li class="pt-1">API developped with FastAPI and Postgres
+                                                </li>
+                                                <li class="pt-1">Hosted on AWS RDS, Heroku, and Vercel
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <a><img src="https://samharrison-portfolio.s3.us-east-2.amazonaws.com/adminpanel.png"
+                                                alt="Emergency Waitlist Example" loading="lazy"
+                                                class="img-fluid project-image"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-12 isotope-item js-id-machine-learning card mt-3">
+                            <div class="col-lg-12 view-showcase card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-md-6">
+                                        <div class="section-subheading article-title mb-0 mt-0">
+                                            <a>CSI3140 GameHub</a>
+                                        </div>
+                                        <div class="article-style mb-1">
+                                            GameHub containing implementations of Wordle and HangMan
+                                        </div>
+                                        <div class="row">
+                                            <div class="btn-links ml-3">
+                                                <a class="btn btn-outline-primary btn-page-header"
+                                                    href="https://github.com/sam-harri/csi3140-project2" target="_blank"
+                                                    rel="noopener">
+                                                    <i class="fab fa-github mr-1"></i>Github
+                                                </a>
+                                            </div>
+                                            <div class="btn-links">
+                                                <a class="btn btn-outline-primary btn-page-header"
+                                                    href="https://csi3140-project2.vercel.app/" target="_blank"
+                                                    rel="noopener">
+                                                    <i class="fa fa-globe mr-1"></i>Website
+                                                </a>
+                                            </div>
+                                            <!-- <div class="btn-links">
+                                                <a class="btn btn-outline-primary btn-page-header" href="www.google.com"
+                                                    target="_blank" rel="noopener">
+                                                    <i class="fa fa-camera mr-1"></i></i>Demo
+                                                </a>
+                                            </div> -->
+                                        </div>
+                                        <div class="card-text">
+                                            <ul>
+                                                <li class="pt-1">Frontend built with React, Next.js, and Tailwind
+                                                </li>
+                                                <li class="pt-1">API developped with PHP and MongoDB
+                                                </li>
+                                                <li class="pt-1">Hosted on AWS S3, Heroku, and Vercel
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 order-first">
+                                        <a><img src="https://samharrison-portfolio.s3.us-east-2.amazonaws.com/wordle.png"
+                                                alt="Wordle Example" loading="lazy"
+                                                class="img-fluid project-image"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 isotope-item js-id-machine-learning card mt-3">
+                            <div class="col-lg-12 view-showcase card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-md-6 order-first">
+                                        <div class="section-subheading article-title mb-0 mt-0">
+                                            <a>Computer Vision Powered Powerlifting Judge</a>
+                                        </div>
+                                        <div class="article-style mb-1">
+                                            Computer vision powered application to judge
+                                            powerlifting squats autonomously and reliably in real time.
+                                        </div>
+                                        <div class="row">
+                                            <div class="btn-links ml-3">
+                                                <a class="btn btn-outline-primary btn-page-header"
+                                                    href="https://github.com/sam-harri/CVPLJ" target="_blank"
+                                                    rel="noopener">
+                                                    <i class="fab fa-github mr-1"></i>Github
+                                                </a>
+                                            </div>
+                                            <!-- <div class="btn-links">
+                                                <a class="btn btn-outline-primary btn-page-header" href="www.google.com"
+                                                    target="_blank" rel="noopener">
+                                                    <i class="fa fa-camera mr-1"></i></i>Demo
+                                                </a>
+                                            </div> -->
+                                        </div>
+                                        <div class="card-text">
+                                            <ul>
+                                                <li class="pt-1">Created web-scrapping bot using Selenium and BeautifulSoup
+                                                    to aquire thousands of relevant training images
+                                                </li>
+                                                <li class="pt-1">Trained custom YOLOv8 object detection model for barbell tracking, and
+                                                    OpenPose model for pose estimation
+                                                </li>
+                                                <li class="pt-1">Developed LSTM network for lift classification using barbell path and joint location
+                                                </li>
+                                                <li class="pt-1">Currently working on reducing model sizes and runing them on edge devices
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <a><img src="https://samharrison-portfolio.s3.us-east-2.amazonaws.com/plexample.png"
+                                                alt="Powerlifting Example" loading="lazy"
+                                                class="img-fluid project-image"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 isotope-item js-id-web-dev card mt-3">
+                            <div class="col-lg-12 view-showcase card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-md-6 order-md-2">
+                                        <div class="section-subheading article-title mb-0 mt-0">
+                                            <a>University of Ottawa Boxing Club Website</a>
+                                        </div>
+                                        <div class="article-style mb-1">
+                                            Web application to handle the registration the boxing
+                                            club classes
+                                        </div>
+                                        <div class="row">
+                                            <div class="btn-links ml-3">
+                                                <a class="btn btn-outline-primary btn-page-header"
+                                                    href="https://github.com/sam-harri/uOBC" target="_blank"
+                                                    rel="noopener">
+                                                    <i class="fab fa-github mr-1"></i>Github
+                                                </a>
+                                            </div>
+                                            <div class="btn-links">
+                                                <a class="btn btn-outline-primary btn-page-header"
+                                                    href="https://sam-harri.github.io/uOBC/" target="_blank"
+                                                    rel="noopener">
+                                                    <i class="fa fa-globe mr-1"></i>Website
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="card-text">
+                                            <ul>
+                                                <li class="pt-1">Developed a website for the university boxing club using Next.js, Tailwind, and Framer Motion
+                                                </li>
+                                                <li class="pt-1">Implemented enrollment and waitlisting functionality, allowing users to enroll in classes or join a waitlist if the class was full without making an account, managed with FastAPI and MongoDB
+                                                </li>
+                                                <li class="pt-1">Created an automated email system using SMTP to send unique unenrollment links upon registration and notify waitlisted users when they are moved into a class
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 order-md-1">
+                                        <a><img src="https://samharrison-portfolio.s3.us-east-2.amazonaws.com/uobcwebsite.png"
+                                                alt="Boxing Club Website" loading="lazy"
+                                                class="img-fluid project-image"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 isotope-item js-id-machine-learning card mt-3">
+                            <div class="col-lg-12 view-showcase card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-md-6 order-first">
+                                        <div class="section-subheading article-title mb-0 mt-0">
+                                            <a>Uranium Milling Plant - Hatch Ltd</a>
+                                        </div>
+                                        <div class="article-style mb-1">Chemical Engineering Capstone Project</div>
+                                        <div class="row">
+                                            <div class="btn-links ml-3">
+                                                <a class="btn btn-outline-primary btn-page-header"
+                                                    href="https://github.com/sam-harri/CHG4250-PlantDesign"
+                                                    target="_blank" rel="noopener">
+                                                    <i class="fab fa-github mr-1"></i>Github
+                                                </a>
+                                            </div>
+                                            <div class="btn-links">
+                                                <a class="btn btn-outline-primary btn-page-header"
+                                                    href="https://uottawa-my.sharepoint.com/personal/ecado041_uottawa_ca/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fecado041_uottawa_ca%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FCHG%204250%20%2D%20Report%205%20%2D%20Volume%20I%20%2D%20Group%201%2Epdf&parent=%2Fpersonal%2Fecado041_uottawa_ca%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files"
+                                                    target="_blank" rel="noopener">
+                                                    <i class="fa fa-file mr-1"></i>Report
+                                                </a>
+                                            </div>
+                                            <div class="card-text">
+                                                <ul>
+                                                    <li class="pt-1">Collaborated with engineering firm Hatch Ltd. for my honors capstone project, designing a uranium milling process for a pilot plant in Saskatchewan
+                                                    </li>
+                                                    <li class="pt-1">Winner of the University of Ottawa plant design competition
+                                                    </li>
+                                                    <li class="pt-1">Designed and optimized solvent extraction prcoess using deep reinforcment learning
+                                                    </li>
+                                                    <li class="pt-1">Conducted a economic sensitivity analysis using Monte Carlo simulations and FANOVA to identify process parameters with the greatest impact on profitability
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <a><img src="https://samharrison-portfolio.s3.us-east-2.amazonaws.com/plantdesignwinner.JPG"
+                                                alt="Uranium Milling Plant - Hatch Ltd" loading="lazy"
+                                                class="img-fluid project-image"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="col-12 isotope-item js-id-other card mt-3">
+                            <div class="col-lg-12 view-showcase card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-md-6">
+                                        <a><img src="https://sam-harri.github.io/AcademicCV/project/skyworks/featured_hudc6ec6fc3708ae834fc66373f4321049_144587_540x0_resize_q75_h2_lanczos.webp"
+                                                alt="Semiconductor Data Pipeline and Plotting Application - SkyWorks Solution Inc."
+                                                loading="lazy" class="img-fluid project-image"></a>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="section-subheading article-title mb-0 mt-0">
+                                            <a>Semiconductor Data Pipeline and Plotting Application - SkyWorks Solution
+                                                Inc.</a>
+                                        </div>
+                                        <div class="article-style">Web application to automate lab data processing and
+                                            streamline the analysis of semiconductor device performance</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="section-heading col-md-3">
+                    <h1 class="ml-5 mt-5">Contact</h1>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <ul class="fa-ul contact-list">
+                        <li class="d-flex align-items-center mb-3">
+                            <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+                            <span id="person-email"><a href="mailto:sharr125@uottawa.ca"
+                                    class="contact-link">sharr125@uottawa.ca</a></span>
+                        </li>
+                        <li class="d-flex align-items-center mb-3">
+                            <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+                            <span id="person-email"><a href="mailto:samy4home@gmail.com"
+                                    class="contact-link">samy4home@gmail.com</a></span>
+                        </li>
+                        <li class="d-flex align-items-center mb-3">
+                            <i class="fa-li fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                            <a href="https://www.linkedin.com/in/samuel-harrison-1a2b3c/" target="_blank" rel="noopener"
+                                class="contact-link">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-footer mt-5">
+        <div class=container>
+            <footer class=site-footer>
+                <p class="powered-by copyright-license-text text-center">© 2024 Sam.</p>
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>
